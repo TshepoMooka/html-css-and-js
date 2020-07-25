@@ -127,3 +127,11 @@
     .c-price{
     float: right;
     }
+
+     @media screen and (max-width: 450px) {
+      .card__container {
+        width: 90% !important;
+        position: fixed !important;
+        left: 27px;
+      }
+    }
